@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.002995] (week6_pkg) JobQueued: {'identifier': 'week6_pkg', 'dependencies': OrderedDict()}
+[0.003199] (week6_pkg) JobStarted: {'identifier': 'week6_pkg'}
+[0.095939] (-) TimerEvent: {}
+[0.196875] (-) TimerEvent: {}
+[0.297859] (-) TimerEvent: {}
+[0.398660] (-) TimerEvent: {}
+[0.500101] (-) TimerEvent: {}
+[0.601323] (-) TimerEvent: {}
+[0.702777] (-) TimerEvent: {}
+[0.804405] (-) TimerEvent: {}
+[0.905591] (-) TimerEvent: {}
+[1.006456] (-) TimerEvent: {}
+[1.107685] (-) TimerEvent: {}
+[1.209118] (-) TimerEvent: {}
+[1.309892] (-) TimerEvent: {}
+[1.410972] (-) TimerEvent: {}
+[1.511908] (-) TimerEvent: {}
+[1.612849] (-) TimerEvent: {}
+[1.713869] (-) TimerEvent: {}
+[1.814851] (-) TimerEvent: {}
+[1.915885] (-) TimerEvent: {}
+[2.016682] (-) TimerEvent: {}
+[2.117690] (-) TimerEvent: {}
+[2.219394] (-) TimerEvent: {}
+[2.324024] (-) TimerEvent: {}
+[2.425265] (-) TimerEvent: {}
+[2.526681] (-) TimerEvent: {}
+[2.627628] (-) TimerEvent: {}
+[2.728662] (-) TimerEvent: {}
+[2.829479] (-) TimerEvent: {}
+[2.930626] (-) TimerEvent: {}
+[3.032093] (-) TimerEvent: {}
+[3.132864] (-) TimerEvent: {}
+[3.233977] (-) TimerEvent: {}
+[3.334999] (-) TimerEvent: {}
+[3.435885] (-) TimerEvent: {}
+[3.536969] (-) TimerEvent: {}
+[3.638806] (-) TimerEvent: {}
+[3.740247] (-) TimerEvent: {}
+[3.841624] (-) TimerEvent: {}
+[3.942728] (-) TimerEvent: {}
+[4.043588] (-) TimerEvent: {}
+[4.144649] (-) TimerEvent: {}
+[4.245591] (-) TimerEvent: {}
+[4.346718] (-) TimerEvent: {}
+[4.447652] (-) TimerEvent: {}
+[4.548899] (-) TimerEvent: {}
+[4.650144] (-) TimerEvent: {}
+[4.751252] (-) TimerEvent: {}
+[4.852137] (-) TimerEvent: {}
+[4.953077] (-) TimerEvent: {}
+[5.054462] (-) TimerEvent: {}
+[5.155692] (-) TimerEvent: {}
+[5.256736] (-) TimerEvent: {}
+[5.336472] (week6_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/week6_pkg', 'build', '--build-base', '/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build', 'install', '--record', '/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/man6/Desktop/week6/ros2_ws/src/week6_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'man6', 'LC_TIME': 'ur_PK', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/man6', 'OLDPWD': '/home/man6/Desktop/week6/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ur_PK', 'SYSTEMD_EXEC_PID': '1320', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/man6/Desktop/week6/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'man6', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'man6', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/man6/Desktop/week6/ros2_ws/install/week6_pkg/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/man6-HP-Spectre-x360-Convertible-15-bl1XX:@/tmp/.ICE-unix/1292,unix/man6-HP-Spectre-x360-Convertible-15-bl1XX:/tmp/.ICE-unix/1292', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ur_PK', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f095f465_8bcc_4658_bfd5_459405293934', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ur_PK', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.141', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/man6/Desktop/week6/ros2_ws/install/week6_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ur_PK', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ur_PK', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ur_PK', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/man6/Desktop/week6/ros2_ws/build/week6_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages:/home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ur_PK', 'LC_PAPER': 'ur_PK', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.356876] (-) TimerEvent: {}
+[5.457741] (-) TimerEvent: {}
+[5.558779] (-) TimerEvent: {}
+[5.659870] (-) TimerEvent: {}
+[5.760949] (-) TimerEvent: {}
+[5.861768] (-) TimerEvent: {}
+[5.962644] (-) TimerEvent: {}
+[6.063607] (-) TimerEvent: {}
+[6.164691] (-) TimerEvent: {}
+[6.265872] (-) TimerEvent: {}
+[6.366796] (-) TimerEvent: {}
+[6.467882] (-) TimerEvent: {}
+[6.569459] (-) TimerEvent: {}
+[6.671100] (-) TimerEvent: {}
+[6.772233] (-) TimerEvent: {}
+[6.873232] (-) TimerEvent: {}
+[6.974191] (-) TimerEvent: {}
+[7.075043] (-) TimerEvent: {}
+[7.176312] (-) TimerEvent: {}
+[7.277271] (-) TimerEvent: {}
+[7.378255] (-) TimerEvent: {}
+[7.457196] (week6_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.461290] (week6_pkg) StdoutLine: {'line': b'creating ../../build/week6_pkg/week6_pkg.egg-info\n'}
+[7.462480] (week6_pkg) StdoutLine: {'line': b'writing ../../build/week6_pkg/week6_pkg.egg-info/PKG-INFO\n'}
+[7.464052] (week6_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/week6_pkg/week6_pkg.egg-info/dependency_links.txt\n'}
+[7.465196] (week6_pkg) StdoutLine: {'line': b'writing entry points to ../../build/week6_pkg/week6_pkg.egg-info/entry_points.txt\n'}
+[7.466623] (week6_pkg) StdoutLine: {'line': b'writing requirements to ../../build/week6_pkg/week6_pkg.egg-info/requires.txt\n'}
+[7.467956] (week6_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/week6_pkg/week6_pkg.egg-info/top_level.txt\n'}
+[7.470403] (week6_pkg) StdoutLine: {'line': b"writing manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'\n"}
+[7.478577] (-) TimerEvent: {}
+[7.490652] (week6_pkg) StdoutLine: {'line': b"reading manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'\n"}
+[7.497021] (week6_pkg) StdoutLine: {'line': b"writing manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'\n"}
+[7.499816] (week6_pkg) StdoutLine: {'line': b'running build\n'}
+[7.501482] (week6_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.502427] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build\n'}
+[7.503373] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib\n'}
+[7.504351] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg\n'}
+[7.505150] (week6_pkg) StdoutLine: {'line': b'copying week6_pkg/initial_code.py -> /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg\n'}
+[7.506091] (week6_pkg) StdoutLine: {'line': b'copying week6_pkg/__init__.py -> /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg\n'}
+[7.507002] (week6_pkg) StdoutLine: {'line': b'running install\n'}
+[7.508153] (week6_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.514101] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg\n'}
+[7.516093] (week6_pkg) StdoutLine: {'line': b'copying /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg/initial_code.py -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg\n'}
+[7.519300] (week6_pkg) StdoutLine: {'line': b'copying /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg/__init__.py -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg\n'}
+[7.520589] (week6_pkg) StdoutLine: {'line': b'byte-compiling /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg/initial_code.py to initial_code.cpython-310.pyc\n'}
+[7.526448] (week6_pkg) StdoutLine: {'line': b'byte-compiling /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[7.528802] (week6_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.530445] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index\n'}
+[7.531844] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index\n'}
+[7.532557] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index/packages\n'}
+[7.533821] (week6_pkg) StdoutLine: {'line': b'copying resource/week6_pkg -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index/packages\n'}
+[7.534375] (week6_pkg) StdoutLine: {'line': b'copying package.xml -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/week6_pkg\n'}
+[7.535028] (week6_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/week6_pkg/launch\n'}
+[7.535444] (week6_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.545955] (week6_pkg) StdoutLine: {'line': b'Copying ../../build/week6_pkg/week6_pkg.egg-info to /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg-0.0.0-py3.10.egg-info\n'}
+[7.551595] (week6_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.578845] (-) TimerEvent: {}
+[7.682098] (-) TimerEvent: {}
+[7.730982] (week6_pkg) StdoutLine: {'line': b'Installing lidar_navigator script to /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/week6_pkg\n'}
+[7.732253] (week6_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/install.log'\n"}
+[7.783709] (-) TimerEvent: {}
+[7.888291] (-) TimerEvent: {}
+[7.958248] (week6_pkg) CommandEnded: {'returncode': 0}
+[7.989921] (-) TimerEvent: {}
+[8.061075] (week6_pkg) JobEnded: {'identifier': 'week6_pkg', 'rc': 0}
+[8.066253] (-) EventReactorShutdown: {}

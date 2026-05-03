@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001344] (week7_pkg) JobQueued: {'identifier': 'week7_pkg', 'dependencies': OrderedDict()}
+[0.001818] (week7_pkg) JobStarted: {'identifier': 'week7_pkg'}
+[0.097034] (-) TimerEvent: {}
+[0.197764] (-) TimerEvent: {}
+[0.299578] (-) TimerEvent: {}
+[0.400349] (-) TimerEvent: {}
+[0.501002] (-) TimerEvent: {}
+[0.601631] (-) TimerEvent: {}
+[0.702141] (-) TimerEvent: {}
+[0.802774] (-) TimerEvent: {}
+[0.903413] (-) TimerEvent: {}
+[1.004065] (-) TimerEvent: {}
+[1.104722] (-) TimerEvent: {}
+[1.205484] (-) TimerEvent: {}
+[1.306191] (-) TimerEvent: {}
+[1.407032] (-) TimerEvent: {}
+[1.507872] (-) TimerEvent: {}
+[1.612019] (-) TimerEvent: {}
+[1.713184] (-) TimerEvent: {}
+[1.813951] (-) TimerEvent: {}
+[1.914802] (-) TimerEvent: {}
+[2.015370] (-) TimerEvent: {}
+[2.116880] (-) TimerEvent: {}
+[2.217690] (-) TimerEvent: {}
+[2.318325] (-) TimerEvent: {}
+[2.418960] (-) TimerEvent: {}
+[2.519551] (-) TimerEvent: {}
+[2.620588] (-) TimerEvent: {}
+[2.722482] (-) TimerEvent: {}
+[2.823154] (-) TimerEvent: {}
+[2.925726] (-) TimerEvent: {}
+[3.026515] (-) TimerEvent: {}
+[3.127585] (-) TimerEvent: {}
+[3.228327] (-) TimerEvent: {}
+[3.329073] (-) TimerEvent: {}
+[3.429910] (-) TimerEvent: {}
+[3.530586] (-) TimerEvent: {}
+[3.600056] (week7_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/week7_pkg', 'build', '--build-base', '/home/man6/Desktop/week7/build/week7_pkg/build', 'install', '--record', '/home/man6/Desktop/week7/build/week7_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/man6/Desktop/week7/ros2_ws/src/week7_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'man6', 'LC_TIME': 'ur_PK', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/man6', 'OLDPWD': '/home/man6/Desktop/week7/ros2_ws/src/week7_pkg/week7_pkg', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ur_PK', 'SYSTEMD_EXEC_PID': '2309', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'man6', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'man6', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/man6-HP-Spectre-x360-Convertible-15-bl1XX:@/tmp/.ICE-unix/1270,unix/man6-HP-Spectre-x360-Convertible-15-bl1XX:/tmp/.ICE-unix/1270', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ur_PK', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/66ca3945_fd24_4d9c_945b_5e517d19079f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ur_PK', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ur_PK', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ur_PK', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ur_PK', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/man6/Desktop/week7/build/week7_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/man6/Desktop/week7/build/week7_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ur_PK', 'LC_PAPER': 'ur_PK', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.630774] (-) TimerEvent: {}
+[3.732139] (-) TimerEvent: {}
+[3.833102] (-) TimerEvent: {}
+[3.933827] (-) TimerEvent: {}
+[4.034584] (-) TimerEvent: {}
+[4.135387] (-) TimerEvent: {}
+[4.236177] (-) TimerEvent: {}
+[4.336940] (-) TimerEvent: {}
+[4.437465] (-) TimerEvent: {}
+[4.538155] (-) TimerEvent: {}
+[4.640700] (-) TimerEvent: {}
+[4.741397] (-) TimerEvent: {}
+[4.842134] (-) TimerEvent: {}
+[4.943961] (-) TimerEvent: {}
+[4.987068] (week7_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.989962] (week7_pkg) StdoutLine: {'line': b'creating ../../../build/week7_pkg/week7_pkg.egg-info\n'}
+[4.991107] (week7_pkg) StdoutLine: {'line': b'writing ../../../build/week7_pkg/week7_pkg.egg-info/PKG-INFO\n'}
+[4.992598] (week7_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/week7_pkg/week7_pkg.egg-info/dependency_links.txt\n'}
+[4.993476] (week7_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/week7_pkg/week7_pkg.egg-info/entry_points.txt\n'}
+[4.994238] (week7_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/week7_pkg/week7_pkg.egg-info/requires.txt\n'}
+[4.994884] (week7_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/week7_pkg/week7_pkg.egg-info/top_level.txt\n'}
+[4.995457] (week7_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/week7_pkg/week7_pkg.egg-info/SOURCES.txt'\n"}
+[5.007748] (week7_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/week7_pkg/week7_pkg.egg-info/SOURCES.txt'\n"}
+[5.011807] (week7_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/week7_pkg/week7_pkg.egg-info/SOURCES.txt'\n"}
+[5.012660] (week7_pkg) StdoutLine: {'line': b'running build\n'}
+[5.012977] (week7_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.013380] (week7_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week7/build/week7_pkg/build\n'}
+[5.013712] (week7_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week7/build/week7_pkg/build/lib\n'}
+[5.013939] (week7_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg\n'}
+[5.014355] (week7_pkg) StdoutLine: {'line': b'copying week7_pkg/__init__.py -> /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg\n'}
+[5.014702] (week7_pkg) StdoutLine: {'line': b'copying week7_pkg/waypoint_navigator.py -> /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg\n'}
+[5.015170] (week7_pkg) StdoutLine: {'line': b'running install\n'}
+[5.016760] (week7_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.020521] (week7_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg\n'}
+[5.022034] (week7_pkg) StdoutLine: {'line': b'copying /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg/__init__.py -> /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg\n'}
+[5.022746] (week7_pkg) StdoutLine: {'line': b'copying /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg/waypoint_navigator.py -> /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg\n'}
+[5.024146] (week7_pkg) StdoutLine: {'line': b'byte-compiling /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[5.025168] (week7_pkg) StdoutLine: {'line': b'byte-compiling /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg/waypoint_navigator.py to waypoint_navigator.cpython-310.pyc\n'}
+[5.030179] (week7_pkg) StderrLine: {'line': b'  File "/home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg/waypoint_navigator.py", line 67\n'}
+[5.031085] (week7_pkg) StderrLine: {'line': b'    main()import rclpy\n'}
+[5.032532] (week7_pkg) StderrLine: {'line': b'          ^^^^^^\n'}
+[5.033487] (week7_pkg) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[5.033983] (week7_pkg) StderrLine: {'line': b'\n'}
+[5.034414] (week7_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.034802] (week7_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week7/install/week7_pkg/share/ament_index\n'}
+[5.035158] (week7_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week7/install/week7_pkg/share/ament_index/resource_index\n'}
+[5.035564] (week7_pkg) StdoutLine: {'line': b'creating /home/man6/Desktop/week7/install/week7_pkg/share/ament_index/resource_index/packages\n'}
+[5.035919] (week7_pkg) StdoutLine: {'line': b'copying resource/week7_pkg -> /home/man6/Desktop/week7/install/week7_pkg/share/ament_index/resource_index/packages\n'}
+[5.036319] (week7_pkg) StdoutLine: {'line': b'copying package.xml -> /home/man6/Desktop/week7/install/week7_pkg/share/week7_pkg\n'}
+[5.036611] (week7_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.041375] (week7_pkg) StdoutLine: {'line': b'Copying ../../../build/week7_pkg/week7_pkg.egg-info to /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg-0.0.0-py3.10.egg-info\n'}
+[5.044372] (-) TimerEvent: {}
+[5.046083] (week7_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.144660] (-) TimerEvent: {}
+[5.163677] (week7_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/man6/Desktop/week7/build/week7_pkg/install.log'\n"}
+[5.244979] (-) TimerEvent: {}
+[5.280914] (week7_pkg) CommandEnded: {'returncode': 0}
+[5.332969] (week7_pkg) JobEnded: {'identifier': 'week7_pkg', 'rc': 0}
+[5.334299] (-) EventReactorShutdown: {}

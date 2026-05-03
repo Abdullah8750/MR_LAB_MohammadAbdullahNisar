@@ -1,0 +1,38 @@
+[5.350s] Invoking command in '/home/man6/Desktop/week6/ros2_ws/src/week6_pkg': PYTHONPATH=/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week6_pkg build --build-base /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build install --record /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/install.log --single-version-externally-managed install_data
+[7.455s] running egg_info
+[7.459s] creating ../../build/week6_pkg/week6_pkg.egg-info
+[7.460s] writing ../../build/week6_pkg/week6_pkg.egg-info/PKG-INFO
+[7.461s] writing dependency_links to ../../build/week6_pkg/week6_pkg.egg-info/dependency_links.txt
+[7.463s] writing entry points to ../../build/week6_pkg/week6_pkg.egg-info/entry_points.txt
+[7.464s] writing requirements to ../../build/week6_pkg/week6_pkg.egg-info/requires.txt
+[7.466s] writing top-level names to ../../build/week6_pkg/week6_pkg.egg-info/top_level.txt
+[7.468s] writing manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'
+[7.488s] reading manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'
+[7.496s] writing manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'
+[7.498s] running build
+[7.499s] running build_py
+[7.500s] creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build
+[7.501s] creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib
+[7.502s] creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg
+[7.503s] copying week6_pkg/initial_code.py -> /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg
+[7.503s] copying week6_pkg/__init__.py -> /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg
+[7.504s] running install
+[7.505s] running install_lib
+[7.513s] creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg
+[7.513s] copying /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg/initial_code.py -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg
+[7.517s] copying /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg/__init__.py -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg
+[7.518s] byte-compiling /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg/initial_code.py to initial_code.cpython-310.pyc
+[7.524s] byte-compiling /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg/__init__.py to __init__.cpython-310.pyc
+[7.527s] running install_data
+[7.528s] creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index
+[7.529s] creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index
+[7.530s] creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index/packages
+[7.531s] copying resource/week6_pkg -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index/packages
+[7.531s] copying package.xml -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/week6_pkg
+[7.532s] creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/week6_pkg/launch
+[7.532s] running install_egg_info
+[7.543s] Copying ../../build/week6_pkg/week6_pkg.egg-info to /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg-0.0.0-py3.10.egg-info
+[7.549s] running install_scripts
+[7.729s] Installing lidar_navigator script to /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/week6_pkg
+[7.729s] writing list of installed files to '/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/install.log'
+[7.957s] Invoked command in '/home/man6/Desktop/week6/ros2_ws/src/week6_pkg' returned '0': PYTHONPATH=/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week6_pkg build --build-base /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build install --record /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/install.log --single-version-externally-managed install_data

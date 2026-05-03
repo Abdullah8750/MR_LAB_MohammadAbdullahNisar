@@ -1,0 +1,34 @@
+running egg_info
+creating ../../../build/week7_pkg/week7_pkg.egg-info
+writing ../../../build/week7_pkg/week7_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/week7_pkg/week7_pkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/week7_pkg/week7_pkg.egg-info/entry_points.txt
+writing requirements to ../../../build/week7_pkg/week7_pkg.egg-info/requires.txt
+writing top-level names to ../../../build/week7_pkg/week7_pkg.egg-info/top_level.txt
+writing manifest file '../../../build/week7_pkg/week7_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../../build/week7_pkg/week7_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../../build/week7_pkg/week7_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/man6/Desktop/week7/build/week7_pkg/build
+creating /home/man6/Desktop/week7/build/week7_pkg/build/lib
+creating /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg
+copying week7_pkg/__init__.py -> /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg
+copying week7_pkg/waypoint_navigator.py -> /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg
+running install
+running install_lib
+creating /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg
+copying /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg/__init__.py -> /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg
+copying /home/man6/Desktop/week7/build/week7_pkg/build/lib/week7_pkg/waypoint_navigator.py -> /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg
+byte-compiling /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg/waypoint_navigator.py to waypoint_navigator.cpython-310.pyc
+running install_data
+creating /home/man6/Desktop/week7/install/week7_pkg/share/ament_index
+creating /home/man6/Desktop/week7/install/week7_pkg/share/ament_index/resource_index
+creating /home/man6/Desktop/week7/install/week7_pkg/share/ament_index/resource_index/packages
+copying resource/week7_pkg -> /home/man6/Desktop/week7/install/week7_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/man6/Desktop/week7/install/week7_pkg/share/week7_pkg
+running install_egg_info
+Copying ../../../build/week7_pkg/week7_pkg.egg-info to /home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/man6/Desktop/week7/build/week7_pkg/install.log'

@@ -1,0 +1,5 @@
+  File "/home/man6/Desktop/week7/install/week7_pkg/lib/python3.10/site-packages/week7_pkg/waypoint_navigator.py", line 67
+    main()import rclpy
+          ^^^^^^
+SyntaxError: invalid syntax
+

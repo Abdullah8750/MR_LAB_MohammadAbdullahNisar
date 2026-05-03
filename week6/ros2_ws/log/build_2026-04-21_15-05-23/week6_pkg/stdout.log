@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/week6_pkg/week6_pkg.egg-info
+writing ../../build/week6_pkg/week6_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/week6_pkg/week6_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/week6_pkg/week6_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/week6_pkg/week6_pkg.egg-info/requires.txt
+writing top-level names to ../../build/week6_pkg/week6_pkg.egg-info/top_level.txt
+writing manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/week6_pkg/week6_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build
+creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib
+creating /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg
+copying week6_pkg/initial_code.py -> /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg
+copying week6_pkg/__init__.py -> /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg
+running install
+running install_lib
+creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg
+copying /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg/initial_code.py -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg
+copying /home/man6/Desktop/week6/ros2_ws/build/week6_pkg/build/lib/week6_pkg/__init__.py -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg
+byte-compiling /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg/initial_code.py to initial_code.cpython-310.pyc
+byte-compiling /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index
+creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index
+creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index/packages
+copying resource/week6_pkg -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/week6_pkg
+creating /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/share/week6_pkg/launch
+running install_egg_info
+Copying ../../build/week6_pkg/week6_pkg.egg-info to /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/python3.10/site-packages/week6_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_navigator script to /home/man6/Desktop/week6/ros2_ws/install/week6_pkg/lib/week6_pkg
+writing list of installed files to '/home/man6/Desktop/week6/ros2_ws/build/week6_pkg/install.log'
